@@ -1,11 +1,11 @@
-# sim2real-gap-kit
+# ShortStop
 
 **Your arm stops short of where the simulation sent it. This kit measures by how much, tells you what shape the error is, fixes it in one line, and refuses to hand you a model that has not passed its own controls.**
 
 Pure Python, `numpy` only, no ROS dependency. Fits from a JSON of recorded moves. Ships the fitted correction, a velocity relay for slow links, a deadband audit and a homing gate.
 
 ```
-pip install git+https://github.com/megazron/sim2real-gap-kit
+pip install git+https://github.com/megazron/shortstop-sim2real
 sim2real-gap synth -o runs.json          # try it with synthetic runs
 sim2real-gap fit runs.json -o model.json
 ```
@@ -88,9 +88,9 @@ Over WSL2 the arm's cyclic (1 kHz) path is unusable: a single write cost **10 36
 ## Install
 
 ```
-pip install git+https://github.com/megazron/sim2real-gap-kit
+pip install git+https://github.com/megazron/shortstop-sim2real
 # or, for development
-git clone https://github.com/megazron/sim2real-gap-kit && cd sim2real-gap-kit && pip install -e .[dev] && pytest -q
+git clone https://github.com/megazron/shortstop-sim2real && cd shortstop-sim2real && pip install -e .[dev] && pytest -q
 ```
 
 ## Quickstart

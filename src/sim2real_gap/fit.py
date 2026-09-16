@@ -181,7 +181,7 @@ class FitReport:
         return TerminalOffsetModel({k: v.eps_rad for k, v in self.arms.items()}, self.continuous_idx,
                                    controls_passed=self.controls_passed, not_validated=nv,
                                    source=self.source,
-                                   notes="fitted by sim2real-gap-kit; see FitReport.summary()")
+                                   notes="fitted by shortstop-sim2real; see FitReport.summary()")
 
     def summary(self) -> str:
         L = []

@@ -3,7 +3,7 @@ requires = ["setuptools>=64", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "sim2real-gap-kit"
+name = "shortstop-sim2real"
 version = "0.1.0"
 description = "Measure, model and close the joint-space sim-to-real gap of a position-tracked arm driven over a slow link."
 readme = "README.md"
@@ -19,7 +19,7 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/megazron/sim2real-gap-kit"
+Homepage = "https://github.com/megazron/shortstop-sim2real"
 
 [project.optional-dependencies]
 dev = ["pytest>=7"]

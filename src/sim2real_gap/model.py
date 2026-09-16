@@ -16,7 +16,7 @@ import json
 import math
 from typing import Iterable, Sequence
 
-FORMAT = "sim2real-gap-kit/terminal-offset/1"
+FORMAT = "shortstop-sim2real/terminal-offset/1"
 
 
 class NotCalibrated(Exception):

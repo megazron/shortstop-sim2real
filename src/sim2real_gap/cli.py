@@ -1,4 +1,4 @@
-"""Command line for sim2real-gap-kit.
+"""Command line for shortstop-sim2real.
 
     sim2real-gap synth -o runs.json                    # synthetic runs from a hidden EPS
     sim2real-gap fit runs.json -o model.json           # fit, run controls, write the model

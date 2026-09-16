@@ -1,4 +1,4 @@
-"""sim2real-gap-kit: measure, model and close the joint-space sim-to-real gap.
+"""shortstop-sim2real: measure, model and close the joint-space sim-to-real gap.
 
 The model is one number per arm: every joint parks EPS radians short of its
 target, on the side it came from. The compensation is to overshoot each joint
