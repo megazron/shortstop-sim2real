@@ -1,5 +1,10 @@
 # ShortStop
 
+![demo](docs/img/demo.gif)
+
+*RViz simulation (Kinova Gen3). Before vs after.*
+
+
 **Your arm stops short of where the simulation sent it. This kit measures by how much, tells you what shape the error is, fixes it in one line, and refuses to hand you a model that has not passed its own controls.**
 
 Pure Python, `numpy` only, no ROS dependency. Fits from a JSON of recorded moves. Ships the fitted correction, a velocity relay for slow links, a deadband audit and a homing gate.
