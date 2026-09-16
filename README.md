@@ -2,7 +2,7 @@
 
 ![demo](docs/img/demo.gif)
 
-*RViz simulation (Kinova Gen3). Before vs after.*
+*Four test scenarios in RViz (Kinova Gen3).*
 
 **Your arm stops short of where the simulation sent it. This kit measures by how much, tells you what shape the error is, fixes it in one line, and refuses to hand you a model that has not passed its own controls.**
 
