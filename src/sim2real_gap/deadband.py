@@ -3,7 +3,6 @@
 A proportional term that is switched off inside a deadband parks the joint
 wherever it enters the band, on the side it came from. If the measured park
 error is well inside the deadband, the deadband is not hiding the error, it
-is producing it. On the rig this kit came from: 1.0 deg deadband, 0.305 deg
 park -- 3.3x -- and the fix was upstream of any compensation.
 """
 from __future__ import annotations
