@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Measure, model and close the joint-space sim-to-real gap of a position-tracked arm driven over a slow link."
 readme = "README.md"
 license = {text = "MIT"}
-authors = [{name = "Gaus Mohiuddin Sayyad", email = "maintainer@example.com"}]
+authors = [{name = "Gaus Mohiuddin Sayyad"}]
 requires-python = ">=3.10"
 dependencies = ["numpy>=1.22"]
 keywords = ["robotics", "sim-to-real", "teleoperation", "kinova", "ros2", "calibration"]
